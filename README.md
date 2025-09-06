@@ -1,12 +1,42 @@
-# React + Vite
+📊 React Dashboard with Firebase & Excel Upload
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a React.js Dashboard Application built with Tailwind CSS that allows users to:
+✅ Sign in with Google using Firebase Authentication
+✅ Upload Excel/CSV files (via xlsx)
+✅ Visualize Sales, Profit, and Expenses in charts (via recharts)
+✅ Explore Amazon Integration and Shopify Integration (dummy dashboards)
+✅ View data in an interactive table with navigation
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔐 Google Authentication with Firebase
 
-## Expanding the ESLint configuration
+📂 Upload and parse Excel/CSV files
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📊 Dynamic Charts (Pie Chart for Sales vs Profit vs Expenses)
+
+💰 KPI cards (Total Sales, Profit, Expenses)
+
+🛒 Dummy Amazon-like Dashboard
+
+🏪 Dummy Shopify-like Dashboard
+
+🎨 Beautiful UI with Tailwind CSS + Lucide Icons
+
+⚡ SweetAlert2 popups for success messages
+
+🛠️ Tech Stack
+
+React.js (Vite) – Frontend framework
+
+Tailwind CSS – Styling
+
+Firebase Auth – Google login
+
+xlsx – Parse Excel/CSV files
+
+recharts – Charts and graphs
+
+lucide-react – Icons
+
+sweetalert2 – Alerts and notifications
